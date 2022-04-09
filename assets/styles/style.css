@@ -1,7 +1,7 @@
 :root {
-    --blue: #0B94CE;
-    --green: #94CE0B;
-    --magenta: #CE0B94;
+    --blue: #18adeb;
+    --navy: #0f408a;
+    --rust: #953018;
 }
 
 * {
@@ -11,21 +11,22 @@
 }
 
 body {
-    color: #656c6a;
+    color: var(--navy);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: var(--blue);
+    background-color: var(--navy);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-bottom: 2px solid var(--rust);
 }
 
 header h1 {
     font-weight: bold;
     font-size: 49px;
-    color: var( --green);
+    color: var( --blue);
     margin: 0;
 }
 
@@ -43,11 +44,30 @@ header nav ul {
 
 header a {
     text-decoration: none;
-    color: var(--green);
+    color: var( --blue);
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font-size: 1.55vw;
 
+}
+
+.hero {
+    background-image: url(../images/hero-background.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.hero img {
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid var(--rust);
+    margin: 10px;
+}
+
+.hero h2 {
+    color: var(--rust);
 }
