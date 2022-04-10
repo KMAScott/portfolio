@@ -82,6 +82,11 @@ header nav ul li a {
     right: 20px;
 }
 
+.section-title {
+    border-bottom: 5px solid var(--rust);
+    margin: 50px 75px 0 75px;
+}
+
 .section-content {
     margin: 50px 75px 50px 75px;
 }
@@ -229,6 +234,7 @@ footer h2 {
 @media screen and (max-width: 575px) {
     .section-title {
         width: 95%;
+        margin: auto;
     }
 
     .hero {
