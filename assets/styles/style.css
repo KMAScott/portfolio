@@ -11,7 +11,7 @@
 }
 
 body {
-    color: var(--blue);
+    color: var(--navy);
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(../images/wood.jpg);
 }
@@ -82,20 +82,16 @@ header nav ul li a {
     right: 20px;
 }
 
-article {
+.section-content {
     margin: 50px 75px 50px 75px;
 }
 
-.section-title {
-    font-weight: bold;
-    border-bottom: 3px solid var(--navy);
-    margin-bottom: 50px;
-}
+
 
 #my-work {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 40px 0 40px;
+    justify-content: space-between;
 }
 
 .card {
@@ -134,7 +130,7 @@ article {
 #contact-me {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 #contact-me ul {
@@ -145,12 +141,12 @@ article {
 }
 
 #contact-me ul li {
-    padding: 60px;
+    font-weight: bolder;
 }
 
 #contact-me ul li a {
     text-decoration: none;
-    color: var(--blue);
+    color: var(--navy);
 }
 
 footer {
