@@ -116,6 +116,7 @@ article {
 }
 
 .card-title {
+    color: var(--blue);
     background-color: var(--navy);
     z-index: 9999;
     width: 35%;
@@ -128,6 +129,28 @@ article {
     align-self: stretch;
     height: 400px;
     width: 100%;
+}
+
+#contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contact-me ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contact-me ul li {
+    padding: 60px;
+}
+
+#contact-me ul li a {
+    text-decoration: none;
+    color: var(--blue);
 }
 
 footer {
