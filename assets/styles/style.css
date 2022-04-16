@@ -51,7 +51,13 @@ header a {
 header nav ul li a {
     padding: 10px 15px;
     font-size: 1.55vw;
+}
 
+header nav ul li a:hover {
+    color: var(--rust);
+    background-color: var(--blue);
+    border: 3px solid var(--rust);
+    border-radius: 15px;
 }
 
 .hero {
@@ -85,13 +91,16 @@ header nav ul li a {
 .section-title {
     border-bottom: 5px solid var(--rust);
     margin: 50px 75px 0 75px;
+    font-size: 35px;
 }
 
 .section-content {
     margin: 50px 75px 50px 75px;
 }
 
-
+p {
+    font-size: 20px;
+}
 
 #my-work {
     display: flex;
@@ -105,8 +114,12 @@ header nav ul li a {
     flex-direction: column;
     margin: 20px;
     position: relative;
-    height: 200px;
+    height: 300px;
     width: 46%;
+}
+
+.card:hover {
+    background-color: rgba(24, 173, 235, 0.5);
 }
 
 .card img {
@@ -128,7 +141,7 @@ header nav ul li a {
 
 #first-card {
     align-self: stretch;
-    height: 400px;
+    height: 600px;
     width: 100%;
 }
 
@@ -152,6 +165,17 @@ header nav ul li a {
 #contact-me ul li a {
     text-decoration: none;
     color: var(--navy);
+}
+
+#contact-me ul li a:hover {
+    color: var(--blue);
+}
+
+#contact-me ul li:hover {
+    color: var(--blue);
+    background-color: var(--navy);
+    border: 3px solid var(--rust);
+    border-radius: 15px;
 }
 
 footer {
@@ -227,6 +251,10 @@ footer h2 {
 
     .card-title {
         width: 35%;
+    }
+
+    #first-card {
+        height: 300px;
     }
 }
 
