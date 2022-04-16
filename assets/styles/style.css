@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-bottom: 2px solid var(--rust);
+    border-bottom: 5px solid var(--rust);
 }
 
 header h1 {
@@ -68,7 +68,7 @@ header nav ul li a:hover {
     height: 300px;
     width: 100%;
     position: relative;
-    border-bottom: 2px solid var(--rust);
+    border-bottom: 5px solid var(--rust);
 }
 
 .hero img {
@@ -92,6 +92,7 @@ header nav ul li a:hover {
     border-bottom: 5px solid var(--rust);
     margin: 50px 75px 0 75px;
     font-size: 35px;
+    text-shadow: 0 0 10px rgba(149, 48, 24, 0.5);
 }
 
 .section-content {
@@ -168,12 +169,12 @@ p {
 }
 
 #contact-me ul li a:hover {
-    color: var(--blue);
+    color: var(--rust);
 }
 
 #contact-me ul li:hover {
-    color: var(--blue);
-    background-color: var(--navy);
+    color: var(--rust);
+    background-color: var(--blue);
     border: 3px solid var(--rust);
     border-radius: 15px;
 }
@@ -187,7 +188,9 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+    border-top: 5px solid var(--rust);
+    border-bottom: 5px solid var(--rust);
+    }
 
 footer h2 {
     color: var(--rust);
