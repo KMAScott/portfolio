@@ -6,3 +6,4 @@ In this project, I'm building a website from scratch. The website is to be an on
 https://kmascott.github.io/portfolio/
 
 ## Screenshot
+![screen shot](./assets/images/screencapture-kmascott-github-io-portfolio-2022-04-16-12_59_01.png)
